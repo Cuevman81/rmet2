@@ -1,7 +1,7 @@
 .onLoad <- function(libname, pkgname) {
   op <- options()
   op.rmet <- list(
-    rmet.noaa.site = "https://www1.ncdc.noaa.gov/pub/data/",
+    rmet.noaa.site = "ftp://ftp.ncdc.noaa.gov/pub/data/",
     rmet.noaa.surfhist = "https://www1.ncdc.noaa.gov/pub/data/noaa/isd-history.txt",
     rmet.install.args = "",
     rmet.name = "rmet",
